@@ -1,0 +1,14 @@
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\bin\Debug\net8.0\asterian-server.exe
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\bin\Debug\net8.0\asterian-server.deps.json
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\bin\Debug\net8.0\asterian-server.runtimeconfig.json
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\bin\Debug\net8.0\asterian-server.dll
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\bin\Debug\net8.0\asterian-server.pdb
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\obj\Debug\net8.0\asterian-server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\obj\Debug\net8.0\asterian-server.AssemblyInfoInputs.cache
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\obj\Debug\net8.0\asterian-server.AssemblyInfo.cs
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\obj\Debug\net8.0\asterian-server.csproj.CoreCompileInputs.cache
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\obj\Debug\net8.0\asterian-server.dll
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\obj\Debug\net8.0\refint\asterian-server.dll
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\obj\Debug\net8.0\asterian-server.pdb
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\obj\Debug\net8.0\asterian-server.genruntimeconfig.cache
+C:\Users\vlnote64\source\repos\asterian-server\asterian-server\obj\Debug\net8.0\ref\asterian-server.dll
