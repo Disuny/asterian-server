@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace asterian_server
+namespace asterian_server.Core.Entities
 {
     public class Tenant
     {

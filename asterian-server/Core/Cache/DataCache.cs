@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using asterian_server.Core.Entities;
 
 namespace asterian_server
 {
     public class DataCache
     {
+
         private static IList<Machine> _Machines;
 
         public static IList<Machine> Machines
@@ -24,8 +26,6 @@ namespace asterian_server
             {
                 int tmp = 0;
                 tmp += await UpdateMachinesAsync();
-                //tmp += await UpdateGroupEventAsync();
-                //tmp += await UpdateEventAsync();
                 Logger.Log(Logger.Type.Normal, $"Cache loaded in {tmp}ms");
             }
             catch (Exception ex)
@@ -39,10 +39,14 @@ namespace asterian_server
             try
             {
                 DateTime now = DateTime.Now;
-                return 0;
+                IList<Machine> machines = await new MachineService().GetAllAsync();
+                _Machines = machines;
+                Logger.Log(Logger.Type.Normal, $"{machines.Count} Machine(s) loaded.");
+                return (int)DateTime.Now.Subtract(now).TotalMilliseconds;
             }
             catch (Exception ex)
             {
+                Logger.Log(Logger.Type.Error, $"Error updating machines: {ex.Message}");
                 return 0;
             }
         }

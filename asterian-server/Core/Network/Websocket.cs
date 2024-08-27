@@ -109,7 +109,8 @@ namespace asterian_server
 
                     if (result.Count > 0)
                     {
-
+                        string message = Encoding.UTF8.GetString(buffer.Array, 0, result.Count);
+                        Console.WriteLine(message);
                     }
                 }
             }

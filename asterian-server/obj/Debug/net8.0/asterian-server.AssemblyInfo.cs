@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("asterian-server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19979a7f329b1fea69c42f903b64b5c423a90545")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a82ee71e9eff31d07c17537ca23a4daa02c80df7")]
 [assembly: System.Reflection.AssemblyProductAttribute("asterian-server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("asterian-server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

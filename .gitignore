@@ -1,0 +1,35 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]pplication [Dd]ata/
+[Ll]og/
+[Ll]ogs/
+*.pdb
+*.exe
+*.dll
+*.log
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.cache
+*.csproj.user
+.vscode/
+.vs
+bin
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.sln.dotsettings
+*.suo
+*.user
+*.userosscache
+
+database.sqlite
+.env
